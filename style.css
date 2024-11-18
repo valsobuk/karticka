@@ -1,0 +1,52 @@
+:root {
+  font-size: 20px;
+}
+
+body {
+  font: 1em/1.618 Inter, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+  padding: 30px;
+  margin: 0;
+
+  color: #224;
+}
+
+.card {
+  max-width: 500px;
+  height: auto;
+  padding: 25px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+#typing-effect {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+.card-footer {
+  font-size: 0.65em;
+  color: rgb(200, 200, 200);
+  margin-bottom: -20px;
+  text-align: right;
+}
+
+#answer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  overflow: hidden;
+  color: #000;
+}
